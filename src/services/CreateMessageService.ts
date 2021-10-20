@@ -19,6 +19,7 @@ export default class CreateMessageService {
     });
 
     const infoWS = {
+      id: message.id,
       text: message.text,
       user_id: message.user_id,
       created_at: message.created_at,
