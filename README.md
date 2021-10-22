@@ -23,7 +23,7 @@ Aplicação para se conectar com a comunidade e interagir sobre o evento DoWhile
 - Clone o repositório
 - Faça uma copia do arquivo `.env.example` para `.env` e preencha com as suas credenciais do GitHub
 - Rode `yarn` para baixar as dependências
-- Rode `yarn typeorm migration:run` para criar as tabelas do banco de dados.
+- Rode `yarn prisma migrate dev` para criar as tabelas do banco de dados.
 - Rode o `yarn dev:server` para iniciar a aplicação.
 
 Após isso, a aplicação estará disponível em `http://localhost:4000`
